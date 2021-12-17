@@ -1,0 +1,13 @@
+{
+  "extends": "@nrwl/workspace/presets/npm.json",
+  "npmScope": "happyorg",
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": {
+        "useDaemonProcess": true,
+        "cacheableOperations": ["build"]
+      }
+    }
+  }
+}
